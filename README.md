@@ -34,7 +34,7 @@ About Activities
 •	Popup Activity contains cover of the magazine, like status, like count, and bookmark status of that particular magazine. These values and URL are imported by receiving current book values sent when clicked on magazine in Home activity.
 •	Likes and bookmarks in the popup layout provides the user to interact with magazine with a better user interface and dynamic user experience.
 
-<img src="Images/3.jpg" height="400px" width="200px" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="Images/3.jpg" height="400px" width="200px" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 3. Account Activity
