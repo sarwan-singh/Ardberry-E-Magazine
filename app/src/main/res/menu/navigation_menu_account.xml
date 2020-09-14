@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/Signup"
+        android:title="@string/my_account"
+        android:icon="@drawable/accounticon"
+        android:checked="true"
+        android:onClick="AccountFromAccount"
+        />
+    <group>
+
+    <item
+        android:id="@+id/home"
+        android:title="@string/home"
+        android:onClick="HomeFromAccount"
+        android:icon="@drawable/homeicon"
+        />
+    <item
+        android:id="@+id/feedack"
+        android:title="@string/feedback"
+        android:onClick="FeedbackFromAccount"
+        android:icon="@drawable/feedbackicon"
+        />
+    <item
+        android:id="@+id/aboutus"
+        android:title="@string/about"
+        android:icon="@drawable/aboutusicon"
+        />
+    </group>
+</menu>

@@ -1,0 +1,3 @@
+<animated-vector xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    tools:targetApi="lollipop"><aapt:attr name="android:drawable"><vector android:height="1000dp" android:width="1500dp" android:viewportHeight="1000" android:viewportWidth="1500"><group android:name="_R_G"/><group android:name="time_group"/></vector></aapt:attr><target android:name="time_group"><aapt:attr name="android:animation"><set android:ordering="together"><objectAnimator android:propertyName="translateX" android:duration="15015" android:startOffset="0" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"/></set></aapt:attr></target></animated-vector>

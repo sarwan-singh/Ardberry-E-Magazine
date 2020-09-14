@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.PopMe">
+        
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name = "android:windowBackground" > @android:color/transparent</item>
+        <item name="android:shadowRadius">20</item>
+        <item name="android:shadowDy">20</item>
+        <item name="android:shadowDx">20</item>
+        <item name="android:windowElevation" tools:targetApi="lollipop">20dp</item>
+        <item name="android:popupElevation" tools:targetApi="lollipop">20dp</item>
+    </style>
+</resources>

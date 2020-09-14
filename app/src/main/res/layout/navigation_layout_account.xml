@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="140dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/navigationheaderphotoaccount"
+        android:scaleType="fitXY"
+        android:alpha="0.9"
+        android:contentDescription="@string/navigation_image"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:fontFamily="@font/lato_light"
+        android:paddingLeft="20dp"
+        android:paddingTop="50dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/account"
+        android:shadowRadius="10"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:textColor="#f2f2f2"
+        android:textSize="30sp" />
+
+</RelativeLayout>
