@@ -1,10 +1,10 @@
-		E-Book Ardberry Technology Pvt. Ltd. App
+# E-Book Ardberry Technology Pvt. Ltd. App
 
-Introduction
+## Introduction
 
 E-book Ardberry Technology Pvt. Ltd. app is a magazine showcase app which provides access to exclusive magazines available on beautiful architecture and facades. E-book App lets you like your favorites, bookmark to read later and give exclusive access to latest magazines. E-book app is filled with many animations and an awesome colorful theme providing user a quite unique and decent experience.
 
-List of Activities
+## List of Activities
 
 •	Home Activity
 •	PopUp Activity
@@ -12,10 +12,10 @@ List of Activities
 •	Feedback Activity
 •	Inside Book Activity
 
-About Activities
+## About Activities
 
 
-1. Home Activity
+### 1. Home Activity
 
 •	Most liked books automatically shuffled on the basis of like counts. This is done with using getChildCount () function of firebaseDatabase. 
 •	Amazing gallery slider with text under picture and dots under picture on the basis of current picture visible. This is done with the help of Daimajia Slider library.
@@ -33,7 +33,7 @@ About Activities
 
 
 
-2. PopUp Activity
+### 2. PopUp Activity
 
 •	A flexible dynamic overlay morale when clicked on any of the magazine. This is done with the help of DisplayMetrics Predefined class.
 •	Popup Activity contains cover of the magazine, like status, like count, and bookmark status of that particular magazine. These values and URL are imported by receiving current book values sent when clicked on magazine in Home activity.
@@ -42,7 +42,7 @@ About Activities
 
 <img src="Images/3.jpg" height="400px" width="200px" >
 
-3. Account Activity
+### 3. Account Activity
 
 •	My Account activity lets the user to log in using Google account providing a simple and fast authentication of his/her account.
 •	All loading screen animations are implemented using Lottie animations. This is done by adding Lottie animations gradle lines and JSON file of animation used inside assets folder.
@@ -55,7 +55,7 @@ About Activities
 
 
 
-4. Feedback Activity
+### 4. Feedback Activity
 
 •	Feedback Activity is used to interact with user and get views and suggestions which we can further implement in app.
 •	Feedback submitted by user is stored in Feedback_user node in firebase real-time database. 
@@ -65,7 +65,7 @@ About Activities
  		 
 
 
-5. Inside Book Activity
+### 5. Inside Book Activity
 
 •	Inside book activity is run whenever eye animation icon is clicked from home activity or popup activity.
 •	Which magazine is to be displayed is automatically selected by app on the basis of the book the eye animation is issued to. This is done by sending extra data whenever the intent is run.
@@ -78,7 +78,7 @@ About Activities
 
 
 
-Problems Faced
+##Problems Faced
 
 •	Complex layout lead to lags and shuttering in low profiles phones which was further resolved by converting one layout and 3 and importing in 4th layout.
 •	Likes and bookmarks when clicked by 2 simultaneous calls of valueChangeListener resulted in firebase crash and app freeze. This was resolved by changing valueEventListener to addSingleValueListener which resulting in only single work at a time and closing all listeners after the work.
