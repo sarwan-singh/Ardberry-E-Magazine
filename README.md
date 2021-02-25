@@ -78,7 +78,7 @@ E-book Ardberry Technology Pvt. Ltd. app is a magazine showcase app which provid
 
 
 
-##Problems Faced
+## Problems Faced
 
 •	Complex layout lead to lags and shuttering in low profiles phones which was further resolved by converting one layout and 3 and importing in 4th layout.
 •	Likes and bookmarks when clicked by 2 simultaneous calls of valueChangeListener resulted in firebase crash and app freeze. This was resolved by changing valueEventListener to addSingleValueListener which resulting in only single work at a time and closing all listeners after the work.
@@ -86,7 +86,7 @@ E-book Ardberry Technology Pvt. Ltd. app is a magazine showcase app which provid
 •	Running pdf from a firebase download URL was complex as many libraries doesn't support https links. This was resolved by downloading and storing content in file stream which are further processed by pdfviewer using fromStream () function.
 •	Likes and bookmarks of most liked magazines should be dynamic and making it worl properly took lots of time.
 
-Things to Do In Future
+## Things to Do In Future
 
 •	Testing on more devices.
 •	Implementing PDF display in a more memory saving way which can save a lot of memory and time at the PDF loading instance.
